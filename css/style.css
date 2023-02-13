@@ -2,14 +2,57 @@
 *{
   margin: 0;
 }
+body{
+  width: 1200px;
+  font-size: 18px;
+}
 header{
   height: 100px;
   background-image: url(../img/pattern.png);
-  background-size:400px; 300px; 
+  background-size:400px; 300px;
 }
+main{
+  padding-left: 5px;
+}
+
 
 /*Header*/
 header img{
   width: 150PX;
   padding-top: 50px;
+}
+
+/*Main*/
+h1{
+  font-size: 50px;
+}
+.blue{
+  color:#57bfeb;
+}
+.riferimento{
+  font-size: 12px;
+  font-weight: 200;
+}
+.foto-tim{
+  height: 400px;
+}
+
+.container{
+  padding-bottom: 20px;
+  padding-left: 5px;
+}
+.evidenziato{
+  background-color: yellow;
+}
+table{
+  text-align: left;
+  padding-bottom: 20px;
+  height: 300px;
+}
+thead{
+  background-color: #19a6e4;
+  color: white;
+}
+.contain{
+  background-color: #b1e5f2;
 }
