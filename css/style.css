@@ -3,11 +3,9 @@
   margin: 0;
 }
 body{
-  width: 1200px;
   font-size: 18px;
 }
 header{
-  height: 100px;
   background-color: #4ea0ff;
   background-image: url(../img/pattern.png);
   background-size: 400px;
@@ -15,14 +13,16 @@ header{
 main, footer{
   padding-left: 5px;
   padding-bottom: 20px;
+  padding-right: 5px;
 }
 
 
 /*Header*/
-header img{
+.logo{
   width: 200PX;
   padding-top: 40px;
   padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 /*Main*/
@@ -44,21 +44,20 @@ h1{
   font-size: 14px;
 
 }
-.foto-tim{
-  height: 400px;
-}
+
 .evidenziato{
   background-color: yellow;
 }
 ul{
   padding-left: 20px;
 }
-table{
+main table{
   text-align: left;
   padding-bottom: 20px;
-  height: 300px;
+  margin-bottom: 20px;
+  border-collapse: collapse;
 }
-thead{
+main thead{
   background-color: #19a6e4;
   color: white;
 }
@@ -66,7 +65,7 @@ thead{
   background-color: #b1e5f2;
 }
 .riga{
-  width: 250px;
+  width: 25%;
 }
 
 /*Footer*/
@@ -74,13 +73,13 @@ h4{
   color: grey;
   padding-bottom: 20px;
 }
-h3{
+.white{
   font-size: 25px;
   color: white;
   width: 300px;
   height: 200px;
-  padding-bottom: 20px;
   padding-left: 10px;
+  padding-bottom: 20px;
   padding-top: 10px
 }
 #monitor{
